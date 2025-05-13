@@ -1,0 +1,21 @@
+@startuml bublikov
+
+package "tech" {
+    package "cmodule" {
+        package "store" {
+            package "cart" {
+                [api] as CartApi
+                () "ICartFacade" - CartApi
+                [impl] as CartImpl
+            }
+            package "order"{
+                [api] as OrderApi
+                () "IOrderFacade" as IOrderFacade
+                IOrderFacade - OrderApi
+            }
+            CartImpl --> IOrderFacade
+        }
+    }
+}
+
+@enduml
