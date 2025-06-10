@@ -12,8 +12,9 @@ package "tech" {
                 [api] as OrderApi
                 () "IOrderFacade" as IOrderFacade
                 IOrderFacade - OrderApi
+                [impl] as OrderImpl
             }
-            CartImpl --> IOrderFacade
+            CartImpl --> IOrderFacade : uses
         }
     }
 }
