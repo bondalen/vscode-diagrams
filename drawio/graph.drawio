@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="-tYmz_DSWUt0_lGhBU8e" name="Page-1">
-        <mxGraphModel dx="1200" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+        <mxGraphModel dx="524" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -177,40 +177,40 @@
                 <mxCell id="58" value="лес&lt;div&gt;множество деревьев&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#99CCFF;rounded=1;strokeWidth=3;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="181" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" edge="1" parent="1" source="63" target="64">
+                <mxCell id="65" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" parent="1" source="63" target="64" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" edge="1" parent="1" source="63" target="66">
+                <mxCell id="67" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" parent="1" source="63" target="66" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="" style="edgeStyle=none;html=1;startArrow=block;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="63" target="69">
+                <mxCell id="70" value="" style="edgeStyle=none;html=1;startArrow=block;startFill=0;endArrow=none;endFill=0;" parent="1" source="63" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="граф" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="63" value="граф&#xa;graph" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="121" y="680" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="вершина" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="64" value="вершина&#xa;vertex" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="1" y="680" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="ребро" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="66" value="ребро&#xa;edge" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="241" y="680" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="" style="edgeStyle=none;html=1;startArrow=diamondThin;startFill=1;endArrow=none;endFill=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="69" target="71">
+                <mxCell id="72" value="" style="edgeStyle=none;html=1;startArrow=diamondThin;startFill=1;endArrow=none;endFill=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="69" target="71" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="" style="edgeStyle=none;html=1;startArrow=block;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="69" target="74">
+                <mxCell id="75" value="" style="edgeStyle=none;html=1;startArrow=block;startFill=0;endArrow=none;endFill=0;" parent="1" source="69" target="74" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="ориентированный" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="69" value="ориентированный&#xa;directed " style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="121" y="800" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="71" target="66">
+                <mxCell id="73" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" source="71" target="66" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="дуга" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="71" value="дуга&#xa;arc" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="241" y="800" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="DAG" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="74" value="DAG" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="121" y="920" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>

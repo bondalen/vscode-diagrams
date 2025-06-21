@@ -1,0 +1,46 @@
+@startuml vuega
+
+package "vuega"{
+    [controller]
+    () PlayerGraphQLController -left- controller
+    [model]
+    () Player -right- model
+    () PlayerInput -left- model
+    [repository]
+    () PlayerRepository -right- repository
+    [service]
+    () PlayerService -right- service
+    repository --> Player
+    service --> Player
+    service --> PlayerInput
+    service --> PlayerRepository
+    controller --> Player
+    controller --> PlayerInput
+    controller --> PlayerService
+}
+
+package "mySystem" {
+    package "vuegl"{
+        [controller] as vlController
+        () vlDagVertexGraphQLController -down- vlController
+    }
+}
+
+package "dagLybrary"{
+    [service] as dagLibService
+    () dagVertexService -right- dagLibService
+    [repository] as dagLibRepository
+    () dagVertexRepository -down- dagLibRepository
+    [model] as dagLibModel
+    () dagVertex -up- dagLibModel
+    () dagVertexInput -down- dagLibModel
+    dagLibService ..> dagVertexRepository : use
+    dagLibService ..> dagVertex : use
+    dagLibService ..> dagVertexInput : use
+    dagLibRepository ..> dagVertex : use
+}
+vlController ..> dagVertexService : use
+vlController ..> dagVertex : use
+vlController ..> dagVertexInput : use
+
+@enduml
